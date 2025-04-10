@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Actividad II, FrontEnd II. Universidad Valle del Momboy. Cristhofer Solarte, Verónica Parra.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verofpp/Actividad-FrontEndII.git"
+  },
+  "keywords": [
+    "FrontEnd",
+    "Cafetalera",
+    "Sistema"
+  ],
+  "author": "Verónica Parra, Cristhofer Solarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verofpp/Actividad-FrontEndII/issues"
+  },
+  "homepage": "https://github.com/verofpp/Actividad-FrontEndII#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.14.0",
+    "zod": "^3.24.2"
+  }
+}
